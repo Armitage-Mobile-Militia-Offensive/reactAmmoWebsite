@@ -2,6 +2,7 @@
   "name": "reactAmmoWebsite",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ancient-retreat-28788.herokuapp.com",
   "devDependencies": {
     "auth0-react-scripts": "0.6.20"
   },
