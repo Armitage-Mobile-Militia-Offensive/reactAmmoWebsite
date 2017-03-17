@@ -5,15 +5,6 @@ import './Login.css';
 import ClockUTC from './ClockUTC';
 
 class Login extends Component {
-  // componentWillMount() {
-  //   this.login = login();
-  // }
-  //
-  // componentWillUnmount() {
-  //   this.login.hide();
-  //   this.login = null;
-  // }
-
   render() {
     const {profile} = this.props;
     let renderinfo = () => {

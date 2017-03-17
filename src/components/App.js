@@ -21,7 +21,7 @@ class App extends Component {
           <Route path="/schedule" component={Scheduler}/>
           <Route path="/floatila" component={Floatila}/>
           <Route path="/fleet" component={Fleet}/>
-          <Route onEnter={requireAuth}>
+          <Route >
             <Route path="/profile/dashboard" component={Dashboard}/>
             <Route path="/profile/edit" component={EditProfile} />
           </Route>
