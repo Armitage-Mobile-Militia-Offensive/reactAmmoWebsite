@@ -1,0 +1,55 @@
+#homeLanding {
+    background-image: url("/assets/io7dx_1efcg-ant-rozetsky.jpg");
+    /*height: inherit;*/
+    padding: 8% 5% 5% 3%;
+    /*top: 55px;*/
+    /*To support older browsers*/
+    height: 100%;
+    width: 100%;
+    /* Set the height to match that of the viewport. */
+    height: 100vh;
+    /* Set the width to match that of the viewport. */
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#homeLanding:before{
+  content: ' ';
+    display: block;
+    position: absolute;
+    width: 75%;
+    height: 75%;
+    z-index: 0;
+    opacity: 0.6;
+    margin: auto auto;
+    background-image: url("/assets/AMMO_LOGOv2.png");
+    background-repeat: no-repeat;
+    -ms-background-size: contain;
+    -o-background-size: contain;
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+
+.landing{
+}
+
+#homeBanner {
+    background-image: url("https://robertsspaceindustries.com/media/77w2o1956yr43r/logo/AMMO-Logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.landingText {
+    text-shadow: 0px 0px 20px black;
+    color: white;
+    margin-top: 0%;
+    font-style: italic;
+}
+
+.landingHeader {
+  text-shadow: 0px 0px 20px black;
+}
