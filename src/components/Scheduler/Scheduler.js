@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-import ClockUTC from '../ClockUTC'
+// import ClockUTC from '../ClockUTC'
 
 class Scheduler extends Component {
   render() {

@@ -122,7 +122,7 @@ class Nav extends Component {
                             activeNavItem
                         }}>
                             Welcome {name}
-                            <img src={profile.picture} className="rounded" height="30px"/></span>
+                            <img src={profile.picture} alt="User Avatar" className="rounded" height="30px"/></span>
                         <div className="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                             <Link to="/profile/dashboard" className="dropdown-item" style={{
                                 textDecoration: 'none'

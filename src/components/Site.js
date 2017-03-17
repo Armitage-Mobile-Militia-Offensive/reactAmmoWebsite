@@ -1,5 +1,5 @@
 import React, {Component, PropTypes} from 'react';
-import {connectProfile, logout} from '../auth';
+import {connectProfile} from '../auth';
 import './Site.css';
 import Nav from './Nav';
 

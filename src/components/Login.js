@@ -16,7 +16,6 @@ class Login extends Component {
 
   render() {
     const {profile} = this.props;
-    console.log(profile);
     let renderinfo = () => {
       let date = new Date(profile.created_at);
       return (
@@ -48,7 +47,7 @@ class Login extends Component {
         <div className="container" style={{marginTop: '20%'}}>
           <h1 className="display-2 alert alert-info text-center">Welcome {profile.username} </h1>
           <div className="text-center">
-            <img className="img-fluid" alt="Profile Picture" src={profile.picture}/>
+            <img className="img-fluid" alt="User Avatar" src={profile.picture}/>
           </div>
           <div className="card text-center">
             <h2 className="card-header">
